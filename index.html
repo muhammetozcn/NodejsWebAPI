@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="TR">
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+        <!--Bootstrap link-->
+         <meta charset="utf-8">
+        <title>YAZLAB3</title>
+    </head>
+    <body>
+        <h1>AKILLI REKLAM YÖNETİM SİSTEMİ</h1>
+        <form action="/veriTabaniEkle" method="POST">
+             Firma Adı:<input class="form-control col-md-10" type="text" name="firmaAdi" required ><br>
+             Firma Lokasyonu:<input class="form-control col-md-10" type="text" name="firmaLokasyon" required><br>
+             Kampanya İçerik:<input class="form-control col-md-10" type="text" name="kampanyaIcerik" required><br>
+             Kampanya Süresi:<input class="form-control col-md-10" type="text" name="kampanyaSuresi" required><br>
+            
+            <button class="btn btn-primary btn-lg" id="butonum" type="submit" onclick="alert('veri tabanına eklendi');">Gönder</button>
+        </form>
+    </body>
+</html>
